@@ -1,0 +1,158 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+  background: #bbbbbb;
+}
+
+.rectangle1 {
+  position: absolute;
+  width: 100px;
+  height: 263px;
+  left: 0px;
+  top: 0px;
+
+  background: #62a2ab;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 100px;
+  height: 584px;
+  left: 0px;
+  top: 258px;
+
+  background: rgba(98, 162, 171, 0.68);
+}
+
+.wrapper {
+  display: flex;
+  width: 595px;
+  height: 842px;
+  justify-content: center;
+  margin: 0 auto;
+  background: #e9eff0;
+}
+
+aside {
+  width: 220px;
+  padding: 17px 17px 0 17px;
+  margin: 37px 0 37px 46px;
+  border: 1px solid rgb(123, 123, 123);
+  background: #e9eff0;
+}
+
+.cv-photo {
+  border-radius: 50%;
+  width: 186px;
+  height: 186px;
+  margin-right: 0px;
+}
+
+.contact-links {
+  text-decoration-line: none;
+  color: black;
+}
+
+main {
+  margin-left: 21px;
+  margin-right: 35px;
+}
+
+.main.description {
+  margin-top: 30px;
+}
+
+.description {
+  line-height: 15px;
+}
+
+.name {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.main-header {
+  margin-left: 0px;
+  margin-top: 54px;
+}
+
+.experience {
+  margin-top: 32px;
+  line-height: 22px;
+}
+
+.education {
+  margin-top: 32px;
+  line-height: 22px;
+}
+
+ul,
+p {
+  font-weight: 100;
+  font-size: 12px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style-position: inside;
+  line-height: 22px;
+}
+
+h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.bold {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.consent {
+  font-weight: 100;
+  font-size: 7px;
+  line-height: 9px;
+  color: #595959;
+  margin-top: 33px;
+}
+
+.hard-skills,
+.soft-skills {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.contact {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+.languages {
+  margin-top: 30px;
+  line-height: 22px;
+}
+
+.school {
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+img {
+  width: 15px;
+  height: 15px;
+  margin-right: 14px;
+  vertical-align: middle;
+}
