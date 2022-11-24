@@ -29,14 +29,15 @@ body {
   height: 842px;
   justify-content: center;
   margin: 0 auto;
-  background: #e9eff0;
+  /* background: #e9eff0; */
+  background: linear-gradient(90deg, #72abb3 16.8%, #e9eff0 16.8%);
 }
 
 aside {
   width: 220px;
   padding: 17px 17px 0 17px;
   margin: 37px 0 37px 46px;
-  border: 1px solid rgb(123, 123, 123);
+  border: 1px solid #53848a;
   background: #e9eff0;
 }
 
