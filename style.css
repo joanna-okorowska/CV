@@ -3,7 +3,7 @@ body {
   background: #bbbbbb;
 }
 
-/* .rectangle1 {
+.rectangle1 {
   position: absolute;
   width: 100px;
   height: 263px;
@@ -21,7 +21,7 @@ body {
   top: 258px;
 
   background: rgba(98, 162, 171, 0.68);
-} */
+}
 
 .wrapper {
   display: flex;
@@ -29,8 +29,9 @@ body {
   height: 842px;
   justify-content: center;
   margin: 0 auto;
-  /* background: #e9eff0; */
-  background: linear-gradient(90deg, #72abb3 16.8%, #e9eff0 16.8%);
+  background: #e9eff0;
+  position: relative;
+  /* background: linear-gradient(90deg, #72abb3 16.8%, #e9eff0 16.8%); */
 }
 
 aside {
@@ -39,6 +40,7 @@ aside {
   margin: 37px 0 37px 46px;
   border: 1px solid #53848a;
   background: #e9eff0;
+  z-index: 1;
 }
 
 .cv-photo {
@@ -123,6 +125,10 @@ h2 {
   line-height: 9px;
   color: #595959;
   margin-top: 33px;
+}
+
+.skills {
+  margin-top: 30px;
 }
 
 .hard-skills,
